@@ -18,7 +18,7 @@ LD      = ld
 AR      = ar
 RANLIB  = ranlib
 
-AR_FLAG = cru
+AR_FLAG = cr
 
 CFLAGS +=	-Wall #-W #-g $(INCLUDE) -MD #-D_VERSION='"$(VERSION)"'
 CFLAGS +=       -Wno-deprecated
